@@ -222,6 +222,7 @@ SECTION "bank16", ROMX
 INCLUDE "engine/pokemon/experience.asm"
 INCLUDE "engine/pokemon/status_ailments.asm"
 INCLUDE "engine/events/oaks_aide.asm"
+INCLUDE "data/items/megastones.asm"
 
 
 SECTION "Saffron Guards", ROMX

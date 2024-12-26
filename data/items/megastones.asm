@@ -1,0 +1,6 @@
+MegaStones:
+	db VENUSAURITE
+	db CHARZARDITEX
+	db CHARZARDITEY
+	db BLASTOISNITE
+	db -1 ; end

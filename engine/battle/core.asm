@@ -2598,6 +2598,9 @@ MoveSelectionMenu:
 	di ; out of pure coincidence, it is possible for vblank to occur between the di and ei
 	   ; so it is necessary to put the di ei block to not cause tearing
 	call TextBoxBorder
+	hlcoord 0, 12
+	lb bc, 4, 3
+	call TextBoxBorder
 	hlcoord 4, 12
 	ld [hl], "─"
 	hlcoord 10, 12

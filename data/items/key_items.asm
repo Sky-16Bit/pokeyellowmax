@@ -83,4 +83,9 @@ KeyItemFlags:
 	dbit FALSE ; MAX_ETHER
 	dbit FALSE ; ELIXER
 	dbit FALSE ; MAX_ELIXER
+	dbit TRUE  ; MEGA_RING
+	dbit TRUE  ; VENUSAURITE
+	dbit TRUE  ; CHARZARDITEX
+	dbit TRUE  ; CHARZARDITEY
+	dbit TRUE  ; BLASTOISNITE
 	end_bit_array NUM_ITEMS

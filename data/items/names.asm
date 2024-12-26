@@ -83,6 +83,11 @@ ItemNames::
 	li "MAX ETHER"
 	li "ELIXER"
 	li "MAX ELIXER"
+	li "MEGA RING"
+	li "VENUSAURITE"
+	li "CHARZARDITEX"
+	li "CHARZARDITEY"
+	li "BLASTOISNITE"
 	assert_list_length NUM_ITEMS
 	li "B2F"
 	li "B1F"

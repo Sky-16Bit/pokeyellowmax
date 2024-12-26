@@ -453,7 +453,7 @@ wMenuWrappingEnabled:: db
 ; whether to check for 180-degree turn (0 = don't, 1 = do)
 wCheckFor180DegreeTurn:: db
 
-	ds 1
+wPlayerMegaEvolving:: db
 
 wMissableObjectIndex:: db
 
@@ -464,7 +464,7 @@ wPredefBC:: dw
 
 wTrainerHeaderFlagBit:: db
 
-	ds 1
+wEnemyMegaEvolving:: db
 
 ; which NPC movement script pointer is being used
 ; 0 if an NPC movement script is not running
@@ -1460,7 +1460,7 @@ wPlayerToxicCounter:: db
 ; low nibble: disable turns left
 wPlayerDisabledMove:: db
 
-	ds 1
+wPlayerMegaEvolved::
 
 ; when the enemy is attacking multiple times, the number of attacks left
 wEnemyNumAttacksLeft:: db
@@ -1473,7 +1473,7 @@ wEnemyToxicCounter:: db
 ; low nibble: disable turns left
 wEnemyDisabledMove:: db
 
-	ds 1
+wEnemyMegaEvolved:: db
 
 UNION
 ; the amount of damage accumulated by the player while biding
@@ -1698,7 +1698,7 @@ wMonHBackSprite:: dw
 wMonHMoves:: ds NUM_MOVES
 wMonHGrowthRate:: db
 wMonHLearnset:: flag_array NUM_TMS + NUM_HMS
-	ds 1
+wMonHPicBank:: db
 wMonHeaderEnd::
 
 ; saved at the start of a battle and then written back at the end of the battle

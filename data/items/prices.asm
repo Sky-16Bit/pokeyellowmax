@@ -83,6 +83,11 @@ ItemPrices::
 	bcd3 0     ; MAX_ETHER
 	bcd3 0     ; ELIXER
 	bcd3 0     ; MAX_ELIXER
+	bcd3 0     ; MEGA_RING
+	bcd3 0     ; VENUSAURITE
+	bcd3 0     ; CHARZARDITEX
+	bcd3 0     ; CHARZARDITEY
+	bcd3 0     ; BLASTOISNITE 
 	assert_table_length NUM_ITEMS
 	bcd3 0     ; FLOOR_B2F
 	bcd3 0     ; FLOOR_B1F
